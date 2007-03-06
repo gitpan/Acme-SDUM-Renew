@@ -16,6 +16,7 @@ WriteMakefile(
         'File::Temp'     => 0.17,
         'Mail::Sender'   => '0.8.13',
         'Carp'           => 1.04,
+        'Crypt::SSLeay'  => 0.53,
     },
     EXE_FILES           => [ 'lib/sdum_renew' ],
     dist                => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
